@@ -1,13 +1,21 @@
 {
-  "name": "vscode-manim-extension",
-  "displayName": "Manim Extension",
+  "name": "manim_tool",
+  "displayName": "Manim Tool",
   "description": "A Visual Studio Code extension for running Manim commands and managing checkpoints.",
   "version": "0.1.0",
-  "publisher": "your-name",
+  "publisher": "Resonance Forge",
   "engines": {
     "vscode": "^1.50.0"
   },
   "main": "./dist/extension.js",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/vscode-manim-extension.git"
+  },
+  "categories": [
+    "Other"
+  ],
   "contributes": {
     "commands": [
       {
