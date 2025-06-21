@@ -1,5 +1,5 @@
 {
-  "name": "manim_tool",
+  "name": "manim-tool",
   "displayName": "Manim Tool",
   "description": "A Visual Studio Code extension for running Manim commands and managing checkpoints.",
   "version": "0.1.0",
