@@ -40,6 +40,10 @@
       }
     ]
   },
+  "activationEvents": [
+    "onCommand:extension.runManim",
+    "onCommand:extension.copyCheckpointPaste"
+  ],
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
