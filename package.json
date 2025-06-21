@@ -3,7 +3,7 @@
   "displayName": "Manim Tool",
   "description": "A Visual Studio Code extension for running Manim commands and managing checkpoints.",
   "version": "0.1.0",
-  "publisher": "the PANE",
+  "publisher": "thepane",
   "engines": {
     "vscode": "^1.50.0"
   },
