@@ -1,0 +1,9 @@
+# .gitignore
+node_modules/
+out/                # Compiled JS (generated locally)
+dist/               # VSIX package (generated on-demand)
+*.vsix
+.vscode-test/       # Test runner artifacts
+.env                # Environment secrets
+coverage/           # Test coverage reports
+.DS_Store

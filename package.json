@@ -1,0 +1,45 @@
+{
+  "name": "vscode-manim-extension",
+  "displayName": "Manim Extension",
+  "description": "A Visual Studio Code extension for running Manim commands and managing checkpoints.",
+  "version": "0.1.0",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.runManim",
+        "title": "Run Manim Scene"
+      },
+      {
+        "command": "extension.copyCheckpointPaste",
+        "title": "Copy and Checkpoint Paste"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.runManim",
+        "key": "ctrl+m ctrl+r",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "extension.copyCheckpointPaste",
+        "key": "ctrl+m ctrl+c",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.0.0",
+    "typescript": "^4.9.5",
+    "vscode": "^1.1.36"
+  }
+}
